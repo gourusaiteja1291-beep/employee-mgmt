@@ -27,4 +27,4 @@ It demonstrates *CRUD operations* and cloud database connectivity.
 ## ⚙ Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/employee-mgmt-springboot.git
+   git clone https://github.com/gourusaiteja1291-beep/employee-mgmt.git

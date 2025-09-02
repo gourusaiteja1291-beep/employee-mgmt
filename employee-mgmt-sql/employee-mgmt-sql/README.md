@@ -15,11 +15,16 @@ The database is hosted on *AWS RDS (MySQL)* and is used by the Spring Boot appli
 
 ---
 
-## 🗄 Database Details (AWS RDS)
+## 🚨 Note About AWS RDS Endpoint
 
-- *Endpoint* → emsdb.c3u0oo68mhn7.ap-south-1.rds.amazonaws.com  
-- *Port* → 3306  
-- *Database Name* → ems  
+- The RDS endpoint (example:  
+  emsdb.c3u0oo68mhn7.ap-south-1.rds.amazonaws.com)  
+  is *only for database connections*.
+- ❌ If you paste it in Chrome/Browser → it *will not open* (you may see "Site can’t be reached").
+- ✅ Instead, use it with:
+  - MySQL Workbench (Database Client)
+  - Spring Boot Application (application.properties)
+  - CLI: mysql -h <endpoint> -u admin -p  
  
 
 ---
